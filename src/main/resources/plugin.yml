@@ -1,0 +1,13 @@
+name: StoneDrop
+version: 1.0
+main: pl.panryba.mc.stonedrop.Plugin
+depend: [TerazPolska]
+commands:
+  stone:
+    description: Lista przedmiotow jakie mozna zdobyc kopiac stone
+    usage: /<command>
+    aliases: [kamien,drop]
+  cobble:
+    description: Wlacza lub wylacza wypadanie bruku (cobblestone) z kamienia
+    usage: /<command>
+    aliases: [bruk]
